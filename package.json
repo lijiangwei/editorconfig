@@ -1,5 +1,5 @@
 {
-  "name": "editorconfig",
+  "name": "@starsoul/editorconfig",
   "version": "0.1.0",
   "description": "Generate .editorconfig file.",
   "repository": "https://github.com/lijiangwei/editorconfig.git",
