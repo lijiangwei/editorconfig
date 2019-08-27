@@ -1,0 +1,27 @@
+{
+  "name": "editorconfig",
+  "version": "0.1.0",
+  "description": "Generate .editorconfig file.",
+  "repository": "https://github.com/lijiangwei/editorconfig.git",
+  "main": "index.js",
+  "bin": {
+    "editorconfig": "./dist/bin/index.js"
+  },
+  "scripts": {
+    "start": "tsc -w"
+  },
+  "author": "xiaosl",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^12.7.2",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.0",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^7.0.0",
+    "ora": "^3.4.0"
+  }
+}
