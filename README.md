@@ -1,11 +1,15 @@
 Generate .editorconfig file in current directory.
 Select `react`,`vue`,`angular` template.
 
-# Usage
+# Install
 ```
 npm install @starsoul/editorconfig --save-dev
-or 
+or
+# global install
 npm install @starsoul/editorconfig -g
+```
 
+# Usage
+```
 @starsoul/editorconfig --init
 ```
